@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional
 class BoardService (
         private val boardRepository: BoardRepository
 ){
-
     @Transactional
     fun findById(id: Long): Board{
         return boardRepository.findById(id).orElseThrow()
