@@ -1,4 +1,4 @@
-package com.example.ktl.entity
+package com.example.ktl.board.entity
 
 import jakarta.persistence.*
 

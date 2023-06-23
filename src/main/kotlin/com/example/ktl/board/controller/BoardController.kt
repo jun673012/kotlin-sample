@@ -1,7 +1,7 @@
-package com.example.ktl.controller
+package com.example.ktl.board.controller
 
-import com.example.ktl.entity.Board
-import com.example.ktl.service.BoardService
+import com.example.ktl.board.entity.Board
+import com.example.ktl.board.service.BoardService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
